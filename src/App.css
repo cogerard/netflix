@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+}
+
+.container {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+  /* width: 100%; */
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.slider {
+  display: flex;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slider img {
+  width: 220px;
+}

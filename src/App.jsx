@@ -12,7 +12,7 @@ function App() {
       />
       {movies.map((movie) => {
         return (
-          <Section />
+          <Section category={movie.category} images={movie.images} />
           // <section key={movie.category}>
           //   <h1>{movie.category}</h1>
 

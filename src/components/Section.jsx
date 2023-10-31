@@ -1,10 +1,10 @@
-const Section = (movie) => {
+const Section = (props) => {
   return (
-    <section key={movie.category}>
-      <h1>{movie.category}</h1>
+    <section key={props.category}>
+      <h1>{props.category}</h1>
 
       <div className="slider">
-        {movie.images.map((image) => {
+        {props.images.map((image) => {
           return (
             <div key={image}>
               <img src={image} alt="affiche du film" />
